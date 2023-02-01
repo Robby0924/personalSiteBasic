@@ -1,0 +1,130 @@
+/* Header*/
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #F8F4EC;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+    height: 100%;
+}
+
+/* done */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F0EAD6;
+    border-bottom: 4px solid #0f7c77;
+}
+
+/* done */
+#name {
+    align-self: flex-end;
+    color: #0f7c77;
+    font-size: 22px;
+    margin: 0px 15px;
+    font-weight: bold;
+    
+}
+
+/* done */
+.navButtonGroup {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5px;
+}
+
+/* done */
+.navButtons {
+    list-style-type: none;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #0f7c77;
+    padding: 0.5em;
+    font-size: 20px;
+    margin: 0px 3px 0px 3px;
+    text-shadow: 2px 2px grey;
+    text-decoration: none;
+    color: white;
+}
+
+#activePage {
+    box-shadow: 3px 3px 5px grey;
+}
+
+/* Footer */
+
+/* done */
+footer {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    align-items: center;
+    border-top: 4px solid #0f7c77;
+    width: 100%;
+    background-color: #F0EAD6;
+}
+
+/* done */
+#socialMediaIcon {
+    margin: 10px;
+    height: 35px;
+    width: 35px;
+}
+
+/* Body */
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1
+}
+
+h1{
+    font-size: 80px;
+    color: #0F7C77;
+}
+
+#quote {
+    color: #0F7C77;
+    float: left;
+    padding-right: 100px;
+    font-size: 50px;
+    color: #0F7C77
+}
+
+#scientia {
+    font-size: 53px;
+    font-weight: bold;
+    color:#C21933;
+    text-decoration: underline;
+}
+
+#quoteTranslate {
+    float: right;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+#knowledge {
+    font-size: 20px;
+    font-weight: bold;
+    color: #C21933;
+    text-decoration: underline;
+}
